@@ -6,9 +6,9 @@ Curso-taller *Introducción al desarrollo con PyQGIS* impartido en 5 sesiones.
 
 ## Temario:
 
-1. Introducción. Consola de Python y editor de scripts.
-2. Macros del proyecto y acciones.
-3. Expresiones personalizadas en Python y algoritmos de geoprocesamiento.
+1. [Introducción. Consola de Python y editor de scripts](https://github.com/qgisco/taller-introduccion-pyqgis/tree/master/1era_Sesi%C3%B3n_Intro_Consola_Python_y_Editor_Scripts).
+2. [Macros del proyecto y acciones](https://github.com/qgisco/taller-introduccion-pyqgis/tree/master/2da_Sesi%C3%B3n_Macros_y_Acciones).
+3. [Expresiones personalizadas en Python y algoritmos de geoprocesamiento](https://github.com/qgisco/taller-introduccion-pyqgis/tree/master/3ra_Sesi%C3%B3n_Expresiones_personalizadas_y_Algoritmos_Geoprocesamiento).
 4. Plugins.
 5. Scripts *standalone* (fuera de la GUI de QGIS).
 
