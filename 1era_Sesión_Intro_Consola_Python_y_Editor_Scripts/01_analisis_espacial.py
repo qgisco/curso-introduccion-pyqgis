@@ -1,7 +1,8 @@
 # Cuidado con las 2 siguientes líneas. 
 # En el taller las ejecutamos en consola, 
 # cambiando manualmente la capa activa
-aeropuertos = iface.activeLayer()
+
+aeropuertos = iface.activeLayer() #Falta incluir la URL de las capas para desarrollar el taller 
 provincias = iface.activeLayer()
 
 # La siguiente línea se ejecutó luego de haber 
