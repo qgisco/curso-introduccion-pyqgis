@@ -1,0 +1,7 @@
+[general]
+name=Mi Plugin
+description=Mi Plugin
+version=1.0
+qgisMinimumVersion=3.0
+author=
+email=
