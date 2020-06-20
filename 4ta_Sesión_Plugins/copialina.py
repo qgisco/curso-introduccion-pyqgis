@@ -47,7 +47,7 @@ iface.messageBar().pushMessage("Mensaje", duration=0)
 
 iface.messageBar().pushInfo("Título", "Mensaje")
 
-iface.messageBar().pushSuccess("Título", "Mensaje", 0)
+iface.messageBar().pushSuccess("Título", "Mensaje")
 
 iface.messageBar().pushWarning("Título", "Mensaje")
 
