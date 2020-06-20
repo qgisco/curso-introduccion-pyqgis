@@ -1,0 +1,7 @@
+[general]
+name=Mi Plugin Custom Widgets
+description=Mi Plugin con Custom Widgets de QGIS
+version=1.0
+qgisMinimumVersion=3.0
+author=
+email=
