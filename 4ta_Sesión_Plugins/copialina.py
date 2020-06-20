@@ -43,11 +43,13 @@ Message Bar
 """
 iface.messageBar().pushMessage("Mensaje")
 
-# MessageLevel:
-#    https://qgis.org/api/classQgis.html#a60c079f4d8b7c479498be3d42ec96257
-iface.messageBar().pushMessage("Mensaje", Qgis.Warning)
+iface.messageBar().pushMessage("Mensaje", duration=0)
 
-iface.messageBar().pushMessage("Mensaje", Qgis.Success, 0)
+iface.messageBar().pushInfo("Título", "Mensaje")
+
+iface.messageBar().pushSuccess("Título", "Mensaje", 0)
+
+iface.messageBar().pushWarning("Título", "Mensaje")
 
 
 
