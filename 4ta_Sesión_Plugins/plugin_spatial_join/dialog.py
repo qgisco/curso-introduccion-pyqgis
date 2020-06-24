@@ -2,7 +2,7 @@ import os
 
 from qgis.PyQt.QtWidgets import QDialog
 from qgis.PyQt.uic import loadUi
-from qgis.core import QgsMapLayer, edit
+from qgis.core import QgsMapLayer, edit, QgsMapLayerProxyModel, QgsFieldProxyModel
 
 
 class SpatialJoinDialog(QDialog):
@@ -11,12 +11,22 @@ class SpatialJoinDialog(QDialog):
         loadUi(os.path.join(os.path.dirname(__file__), "dialog.ui"), self)
         self.iface = iface
         
+        # Only point layers and string fields
+        self.cbo_points.setFilters(QgsMapLayerProxyModel.PointLayer)
+        self.cbo_target_field.setFilters(QgsFieldProxyModel.String)
+        
+        # Only polygon layers
+        self.cbo_polygons.setFilters(QgsMapLayerProxyModel.PolygonLayer)
+
+        # Initialize field combos
         self.cbo_target_field.setLayer(self.cbo_points.currentLayer())
         self.cbo_source_field.setLayer(self.cbo_polygons.currentLayer())
 
+        # SIGNAL-SLOT connections to link layer and field combos
         self.cbo_points.layerChanged.connect(self.cbo_target_field.setLayer)        
         self.cbo_polygons.layerChanged.connect(self.cbo_source_field.setLayer)
         
+        # When users clic on dialog's OK button...
         self.accepted.connect(self.process)
   
     def process(self):
@@ -38,7 +48,8 @@ class SpatialJoinDialog(QDialog):
         fs_polygons = [f for f in polygons.getFeatures()]
         point_field_idx = points.fields().indexOf(points_field)
 
-
+        # Only for demo purposes, as in practice it would be better
+        # to use processing algorithms, or spatial indexes
         with edit(points):
             for point in points.getFeatures(): 
                 for polygon in fs_polygons:
