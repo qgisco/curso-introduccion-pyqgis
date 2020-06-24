@@ -4,5 +4,6 @@ description=Plugin to show a spatial join in a PyQGIS course
 about=Sample Plugin to perform spatial joins and update field values
 version=1.0
 qgisMinimumVersion=3.0
+icon=icon.png
 author=Germán Carrillo
 email=gcarrillo@linuxmail.org
