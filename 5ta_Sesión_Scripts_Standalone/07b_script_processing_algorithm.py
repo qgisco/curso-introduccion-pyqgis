@@ -5,12 +5,13 @@ from qgis.core import QgsApplication, QgsProject, QgsCoordinateReferenceSystem
 from qgis.analysis import QgsNativeAlgorithms
 
 # See https://gis.stackexchange.com/a/155852/4972 for details about the prefix 
-QgsApplication.setPrefixPath('/docs/dev/qgis/QGIS/3_14_0/output', True)
+qgis_prefix = '/docs/dev/qgis/QGIS/3_14_0/output'
+QgsApplication.setPrefixPath(qgis_prefix, True)
 qgs = QgsApplication([], False)
 qgs.initQgis()
 
 # Append the path where processing plugin can be found
-sys.path.append('/docs/dev/qgis/QGIS/3_14_0/output/python/plugins')
+sys.path.append(qgis_prefix + '/python/plugins')
 
 import processing
 from processing.core.Processing import Processing
