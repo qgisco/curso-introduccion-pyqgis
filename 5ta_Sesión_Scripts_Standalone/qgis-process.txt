@@ -1,0 +1,1 @@
+output/bin/qgis_process run native:sumlinelengths --POLYGONS="/docs/tr/qgis_col/cursos/pyqgis_2020/sample_data_4326.gpkg|layername=Provinces" --LINES="/docs/tr/qgis_col/cursos/pyqgis_2020/sample_data_4326.gpkg|layername=Roads" --LEN_FIELD=LENGTH --COUNT_FIELD=COUNT --OUTPUT=/tmp/gpkg/output_taller.gpkg
