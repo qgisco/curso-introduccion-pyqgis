@@ -17,7 +17,7 @@ https://slides.com/germap/introduccion-al-desarrollo-con-pyqgis
 
 ## Datos
 
-:arrow_down: [Descargar datos del curso](https://github.com/qgisco/curso-introduccion-pyqgis/blob/master/geodata/geodata.zip)
+:arrow_down: [Descargar datos del curso](https://github.com/qgisco/curso-introduccion-pyqgis/raw/master/geodata/geodata.zip)
 
  + sample_data_4326.gpkg 
 
