@@ -69,10 +69,6 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
 	
 	* Modificación de capas.
 	
-	   Tarea:  Elegir UNA
-	
-	* ☑ Sumar la longitud de las vías que pasan por cada departamento.
-	* ☑ Replicar con datos World + Hackfests, qué hacer con los puntos (hackfests) que caen fuera de los continentes?
 
 
 ### 2.a. Macros del proyecto
@@ -106,7 +102,7 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
 	* Para calcular altura. 
 	* Capa de puntos nueva con valor elevación predeterminado.
 	* raster_value()!!!
-* Ejemplo d generación de QR.
+* Ejemplo de generación de QR.
 
 
 ### 3.b. Algoritmos de geoprocesamiento
