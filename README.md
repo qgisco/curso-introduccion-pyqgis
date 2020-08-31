@@ -30,3 +30,7 @@ https://slides.com/germap/introduccion-al-desarrollo-con-pyqgis
  + DEM.tif
 
    Source: [ASTER GDEM](https://asterweb.jpl.nasa.gov/)
+
+## Video (demo) de Algoritmos de Geoprocesamiento (2da parte de la sesión 3)
+
+[![Algoritmos de Geoprocesamiento](https://res.cloudinary.com/marcomontalbano/image/upload/v1598916344/video_to_markdown/images/youtube--xmNlqXFeLxw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=xmNlqXFeLxw "Algoritmos de Geoprocesamiento")
