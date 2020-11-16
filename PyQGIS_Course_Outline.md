@@ -9,7 +9,7 @@ Geógrafos, ingenieros y otros profesionales relacionados con los Sistemas de In
 
 ## Duración y Modalidad
 
-El curso tienen una duración de 15 horas, repartidas en 5 sesiones. Las sesiones pueden ser virtuales o presenciales.
+El curso tienen una duración de 16 horas, repartidas en 5 sesiones. Las sesiones pueden ser virtuales o presenciales.
 
 ## Instructor
 
@@ -30,7 +30,7 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
 
 3) Expresiones personalizadas en Python y algoritmos de Geoprocesamiento. (3h)
 
-4) Plugins.  (5h)
+4) Plugins.  (6h)
 
 5) Scripts 'standalone' (sin la GUI de QGIS). (2.5h)
 
@@ -83,7 +83,7 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
   * Apagar capas muy pesadas
 * Startup.py (¿Y si lo quiero para cada proyecto en mi máquna?)
 	* Abrir consola de Python
-	* iface.activeLayer() → l
+	* iface.activeLayer() → variable "l"
 
 
 ### 2.b. Acciones
@@ -159,5 +159,8 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
 
 ## Certificado de aprobación
 
-Para acceder a un certificado de aprobación del curso, los estudiantes deberán entregar los ejercicios planteados por el instructor. (Ver [ejemplo de certificado](https://qgisusers.co/media/ci1-idp-1032458815.pdf))
-
+Para acceder a un certificado de aprobación del curso, los estudiantes deberán entregar los ejercicios planteados por el instructor. 
+QGIS Colombia ofrece 2 tipos de certificados de aprobación (el estudiante que cumpla el requisito planteado podrá escoger el certificado de su interés):
+   
+   + Certificado oficial de QGIS global.
+   + Certificado propio de QGIS Colombia (ver [ejemplo de certificado](https://qgisusers.co/media/ci1-idp-1032458815.pdf)).
