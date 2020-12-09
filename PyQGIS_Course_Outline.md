@@ -1,15 +1,11 @@
 # Curso "Introducción al desarrollo con  PyQGIS"
 ## Descripción
 
-El curso de "Introducción al desarrollo con PyQGIS" busca dar a conocer a los estudiantes los diferentes escenarios en los cuales es posible utilizar Python en QGIS, para automatizar flujos de trabajo. Se busca que los estudiantes obtengan un panorama completo de las diferentes opciones por las que pueden optar, según el caso de uso, para optimizar su trabajo en las entidades en las que laboran.
+El curso de "Introducción al desarrollo con PyQGIS" busca dar a conocer a los estudiantes los diferentes escenarios en los cuales es posible utilizar Python en QGIS, con el fin de automatizar flujos de trabajo. Se busca que los estudiantes obtengan un panorama completo de las diferentes opciones por las que pueden optar, según el caso de uso, para optimizar su trabajo con información geográfica.
 
 ## Dirigido a
 
 Geógrafos, ingenieros y otros profesionales relacionados con los Sistemas de Información Geográfica y con conocimientos básicos de programación.
-
-## Duración y Modalidad
-
-El curso tienen una duración de 16 horas, repartidas en 5 sesiones. Las sesiones pueden ser virtuales o presenciales.
 
 ## Instructor
 
