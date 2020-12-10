@@ -156,7 +156,4 @@ Ingeniero Catastral y Geodesta y Especialista en SIG de la Universidad Distrital
 ## Certificado de aprobación
 
 Para acceder a un certificado de aprobación del curso, los estudiantes deberán entregar los ejercicios planteados por el instructor. 
-QGIS Colombia ofrece 2 tipos de certificados de aprobación (el estudiante que cumpla el requisito planteado podrá escoger el certificado de su interés):
-   
-   + Certificado oficial de QGIS global.
-   + Certificado propio de QGIS Colombia (ver [ejemplo de certificado](https://qgisusers.co/media/ci1-idp-1032458815.pdf)).
+Los estudiantes que cumplan el requisito planteado obtendrán el certificado oficial del proyecto QGIS (en inglés) y opcionalmente obtendrán un certificado de aprobación del curso, expedido por QGIS Colombia (en español).
