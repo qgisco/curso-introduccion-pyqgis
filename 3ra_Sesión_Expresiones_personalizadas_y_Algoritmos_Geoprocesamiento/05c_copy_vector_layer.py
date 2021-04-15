@@ -5,9 +5,8 @@ from qgis.processing import alg
      group='examplescripts', group_label='Example scripts')
 # 'INPUT' is the recommended name for the main input parameter
 @alg.input(type=alg.VECTOR_LAYER, name='INPUT', label='Input vector layer')
-@alg.input(type=alg.SINK, name='SINK', label='Copy of the vector layer')
 # 'OUTPUT' is the recommended name for the main output parameter
-@alg.output(type=alg.VECTOR_LAYER, name='OUTPUT', label='Output vector layer')
+@alg.input(type=alg.SINK, name='OUTPUT', label='Copy of the vector layer')
 def pruebaCopyLayer(instance, parameters, context, feedback, inputs):
     """
     Copies a vector layer.
@@ -19,7 +18,7 @@ def pruebaCopyLayer(instance, parameters, context, feedback, inputs):
     )
     (sink, dest_id) = instance.parameterAsSink(
                         parameters,
-                        'SINK',
+                        'OUTPUT',
                         context,
                         source.fields(),
                         source.wkbType(),
